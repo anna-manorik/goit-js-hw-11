@@ -38,6 +38,7 @@ async function imageFetcher(value){
 
     if(images.totalHits === 0){
         Notiflix.Notify.failure("Sorry, there are no images matching your search query. Please try again.");
+        loadmoreBTN.hidden = true;
         return;
     }
 
