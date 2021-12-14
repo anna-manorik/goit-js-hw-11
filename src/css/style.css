@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.search-form{
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery{
+    width: 1490px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-card{
+    width: 350px;
+    margin: 0 20px 20px 0;
+    list-style: none;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.info-item{
+    text-align: center;
+}
+
+.load-more{
+    margin-bottom: 40px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(55, 182, 139);
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 2px #000;
+}
+
