@@ -13,6 +13,7 @@ form.addEventListener("submit", evt => {
     try{
         imagesList.innerHTML = "";
         page = 1;
+        loadmoreBTN.hidden = true;
 
         imageFetcher(input.value);
     } catch (error){
